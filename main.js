@@ -15,7 +15,7 @@ menu.addEventListener("click", () => {
 });
 
 back.addEventListener("click", () =>{
-	vack.classList.remove("open");
+	back.classList.remove("open");
 	nav.classList.remove("open-menu");
 	menu.textContent = "menu";
 });
