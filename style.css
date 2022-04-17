@@ -22,7 +22,7 @@ header p{
 	overflow: hidden;
 	top: 0;
 	bottom: 0;
-	right: 0;
+	left: 0;
 	text-align: center;
 	width: 0;
 	transition: 0.2s;
