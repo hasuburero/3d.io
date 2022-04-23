@@ -1,5 +1,9 @@
+window.addEventListener("DOMContentLoaded", init);
+
 function init(){
-	window.addEventListener("DOMContentLoaded", init);
+	const width = 960;
+	const height = 540;
+
 	const renderer = new THREE.WebGLRenderer({
 		canvas: document.querySelector(#myCanvas)
 	});
