@@ -13,7 +13,7 @@ function init(){
 
 	const scene = new THREE.Scene();
 
-	const camera = new THREE.PerspectiveCamera(45, 800/600, 1, 10000);
+	const camera = new THREE.PerspectiveCamera(45, width/height, 1, 10000);
 	camera.position.set(0, 0, +1000);
 
 	const geometry = new THREE.BoxGeometry(100, 100, 100);
