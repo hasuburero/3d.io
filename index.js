@@ -14,7 +14,11 @@ function init(){
 	const scene = new THREE.Scene();
 
 	let aspect;
-	aspect = width/height;
+	if(width<height){
+		aspect = width/height;
+	}else{
+		aspect = height/width;
+	}
 
 	const camera = new THREE.PerspectiveCamera(45, aspect, 1, 10000);
 	camera.position.set(0, 0, +1000);
