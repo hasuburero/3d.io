@@ -5,7 +5,7 @@ function init(){
 	const height = 540;
 
 	const renderer = new THREE.WebGLRenderer({
-		canvas: document.querySelector(#myCanvas)
+		canvas: document.querySelector('#myCanvas')
 	});
 
 	renderer.setSize(width, height);
