@@ -1,8 +1,8 @@
 window.addEventListener('DOMContentLoaded', init);
 
 function init(){
-	const width = 960;
-	const height = 540;
+	const width = window.innerWidth;
+	const height = window.innerHeight;
 
 	const renderer = new THREE.WebGLRenderer({
 		canvas: document.querySelector('#myCanvas')
@@ -16,7 +16,7 @@ function init(){
 	const camera = new THREE.PerspectiveCamera(45, 800/600, 1, 10000);
 	camera.position.set(0, 0, +1000);
 
-	const geometry = new THREE.BoxGeometry(500, 500, 500);
+	const geometry = new THREE.BoxGeometry(100, 100, 100);
 	const material = new THREE.MeshStandardMaterial({
 		color: 0x0000ff
 	});
