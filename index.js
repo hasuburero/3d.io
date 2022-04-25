@@ -2,7 +2,7 @@ window.addEventListener('DOMContentLoaded', init);
 
 function init(){
 	const width = window.innerWidth;
-	const height = window.innerHeight;
+	const height = window.innerHeight-40;
 
 	const renderer = new THREE.WebGLRenderer({
 		canvas: document.querySelector('#myCanvas')
@@ -13,12 +13,14 @@ function init(){
 
 	const scene = new THREE.Scene();
 
+///////////////////////////////////////////////
 	let aspect;
 	if(width<height){
 		aspect = width/height;
 	}else{
 		aspect = height/width;
 	}
+	/////////////////////////////////////////////
 
 	const camera = new THREE.PerspectiveCamera(45, aspect, 1, 10000);
 	camera.position.set(0, 0, +1000);
