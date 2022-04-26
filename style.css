@@ -5,6 +5,7 @@ body{
 header{
 	background: skyblue;
 	display: flex;
+	height: 50px;
 }
 header h1{
 	padding-left: 20px;
@@ -12,7 +13,7 @@ header h1{
 header p{
 	margin-right: auto;
 	cursor: pointer;
-	line-height: normal;
+	line-height: 46px;
 	padding-left: 20px;
 	z-index: 150;
 }
