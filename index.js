@@ -2,7 +2,7 @@ window.addEventListener('DOMContentLoaded', init);
 
 function init(){
 	const width = window.innerWidth;
-	const height = window.innerHeight-100;
+	const height = window.innerHeight - 200;
 
 	const renderer = new THREE.WebGLRenderer({
 		canvas: document.querySelector('#myCanvas')
