@@ -1,5 +1,7 @@
 window.addEventListener('DOMContentLoaded', init);
 
+console.log(menu.textContent);
+
 function init(){
 	const width = window.innerWidth;
 	const height = window.innerHeight;
