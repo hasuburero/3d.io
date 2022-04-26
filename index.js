@@ -1,10 +1,10 @@
 window.addEventListener('DOMContentLoaded', init);
 
-console.log(menu.textContent);
+console.log(window.innerHeight);
 
 function init(){
 	const width = window.innerWidth;
-	const height = window.innerHeight;
+	const height = window.innerHeight-50;
 
 	const renderer = new THREE.WebGLRenderer({
 		canvas: document.querySelector('#myCanvas')
