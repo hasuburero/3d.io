@@ -12,6 +12,7 @@ header h1{
 }
 header p{
 	margin-right: auto;
+	margin-top: auto;
 	cursor: pointer;
 	line-height: 46px;
 	padding-left: 20px;
