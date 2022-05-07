@@ -2,8 +2,10 @@ const menu = document.getElementById("menu");
 const back = document.getElementById("back");
 const nav = document.getElementById("nav");
 const a =	document.getElementsByTagName('a'); 
-const myCanvas=document.getElementById("myCanvas");
-console.log(myCanvas.style.display="none");
+const Canvas3d=document.getElementById("Canvas3d");
+const Canvas2d=document.getElementById("Canvas2d");
+Canvas3d.style.display="none";
+Canvas3d.style.display="none";
 console.log(a[0]);
 
 
@@ -20,13 +22,13 @@ menu.addEventListener("click", () => {
 });
 
 a[1].addEventListener("click", () => {
-	if(myCanvas.style.display == "none"){
+	if(Canvas3d.style.display == "none"){
 		a[1].textContent = "2D";
-		myCanvas.style.display = "block";
+		Canvas3d.style.display = "block";
 	}
 	else{
 		a[1].textContent = "3D";
-		myCanvas.style.display = "none";
+		Canvas3d.style.display = "none";
 	}
 	nav.classList.remove("open-menu");
 	back.classList.remove("open");
