@@ -5,7 +5,7 @@ const a =	document.getElementsByTagName('a');
 const Canvas3d=document.getElementById("Canvas3d");
 const Canvas2d=document.getElementById("Canvas2d");
 Canvas3d.style.display="none";
-Canvas3d.style.display="none";
+Canvas2d.style.display="none";
 console.log(a[0]);
 
 
