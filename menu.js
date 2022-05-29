@@ -3,9 +3,9 @@ const back = document.getElementById("back");
 const nav = document.getElementById("nav");
 const a =	document.getElementsByTagName('a'); 
 const Canvas3d=document.getElementById("Canvas3d");
-const Canvas2d=document.getElementById("Canvas2d");
+const Test = document.getElementById("test");
 Canvas3d.style.display="none";
-Canvas2d.style.display="none";
+test.style.display="block";
 console.log(a[0]);
 
 
@@ -23,7 +23,7 @@ menu.addEventListener("click", () => {
 
 a[1].addEventListener("click", () => {
 	if(Canvas3d.style.display == "none"){
-		a[1].textContent = "2D";
+		a[1].textContent = "編集画面";
 		Canvas3d.style.display = "block";
 	}
 	else{
