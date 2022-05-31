@@ -35,6 +35,8 @@ function init(){
 
 	/////////////////////////////////////////////
 	const controls = new THREE.OrbitControls(camera, canvasElement)
+	controls.minDistance = 200;
+	controls.maxDistance = 1500;
 	////////////////////////////////////
 
 	const geometry = new THREE.BoxGeometry(100, 100, 100);
