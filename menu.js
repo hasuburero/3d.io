@@ -8,6 +8,13 @@ Canvas3d.style.display="none";
 test.style.display="block";
 console.log(a[0]);
 
+if(window.File){
+	window.alert("File APIが実装されています．");
+}
+else{
+	window.alert("本ブラウザではFile APIが使えません");
+}
+
 
 menu.addEventListener("click", () => {
 	if(nav.className === "navi"){
