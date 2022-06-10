@@ -5,7 +5,6 @@ const a =	document.getElementsByTagName('a');
 const Canvas3d=document.getElementById("Canvas3d");
 const Test = document.getElementById("test");
 Canvas3d.style.display="none";
-test.style.display="block";
 console.log(a[0]);
 
 
