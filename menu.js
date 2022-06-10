@@ -8,15 +8,15 @@ Canvas3d.style.display="none";
 test.style.display="block";
 console.log(a[0]);
 
-if(window.File){
-	window.alert("File APIが実装されています．");
-}
-else{
-	window.alert("本ブラウザではFile APIが使えません");
-}
 
 
 menu.addEventListener("click", () => {
+	if(window.File){
+		window.alert("File APIが実装されています．");
+	}
+	else{
+		window.alert("本ブラウザではFile APIが使えません");
+	}
 	if(nav.className === "navi"){
 		nav.classList.add("open-menu");
 		back.classList.add("open");
